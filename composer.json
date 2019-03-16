@@ -1,0 +1,32 @@
+{
+    "name": "yeghmorassen/addadamaruz",
+    "description": "format translation attributes for the kabyle locale",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "azni hamza",
+            "email": "yeghmorassen@gmail.com"
+        }
+    ],
+    "require": {
+      "php": ">=7.1"
+    },
+    "autoload": {
+      "psr-4": {
+        "Yeghmorassen\\Addadamaruz\\": "src"
+      },
+      "files": []
+    },
+    "autoload-dev": {
+      "psr-4": {}
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Yeghmorassen\\Addadamaruz\\AddadamaruzServiceProvider",
+          "Yeghmorassen\\Addadamaruz\\AddadamaruzValidationServiceProvider"
+        ],
+        "aliases": {}
+      }
+    }
+}
